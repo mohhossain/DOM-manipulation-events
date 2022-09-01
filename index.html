@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM manipulation and events</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <button onclick="handleClick()">Toggle mode</button>
+    <div class="body-container">
+        <h1 class="text" id="title">Welcome to 082922</h1>  
+        <h1 class="text">Hello Everyone!</h1>
+    </div>
+
+    <div class="body-container">
+        <h1>
+            This is the second body
+        </h1>
+    </div>
+
+    <div style="text-align:center; display: flex; justify-content: center;">
+
+        <div onmouseover="handleMouseOver()" 
+        onmouseleave="handleMouseLeave()"
+        onclick="handleMouseClick()"
+        id="square">
+
+        </div>
+
+    </div>
+
+    <form onsubmit="handleSubmit(event)" style="margin-top: 50px">
+        <input oninput="handleInput(event)" type='text'/>
+    </form>
+    
+	<script src="index.js"></script>
+  </body>
+</html>
+
+

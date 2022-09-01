@@ -1,0 +1,23 @@
+html{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+#square{
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+}
